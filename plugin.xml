@@ -18,7 +18,7 @@
 		<engine name="cordova-ios" version=">=3.8.0" />
 	</engines>
 	
-	<hook type="before_plugin_install" src="extra/hooks/iosrtc-swift-support.js" />
+	<hook type="after_platform_add" src="extra/hooks/iosrtc-swift-support.js" />
     
 	<platform name="ios">
 		
