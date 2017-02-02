@@ -103,7 +103,7 @@
 		<!-- WebRTC static library -->
 		<source-file src="lib/libWebRTC-LATEST-Universal-Release.a" framework="true" />
 		
-		<hook type="after_platform_add" src="hooks/iosrtc-swift-support.js" />
+		<hook type="after_plugin_install" src="hooks/iosrtc-swift-support.js" />
 		
 	</platform>
 
